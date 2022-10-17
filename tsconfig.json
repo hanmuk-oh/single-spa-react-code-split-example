@@ -1,0 +1,11 @@
+{
+  "extends": "ts-config-single-spa",
+  "files": ["src/kevo-root-config.ts"],
+  "compilerOptions": {
+    "jsx": "react",
+    "jsx": "react",
+    "declarationDir": "dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}
